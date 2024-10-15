@@ -18,7 +18,7 @@ df = pd.DataFrame(np.random.randn(10, 2), columns=['x', 'y'])
 st.area_chart(df)
 
 df = pd.DataFrame(
-    np.random.randn(500, 2) / [50, 50] + [320.6, 78.9], columns=['lat', 'lon']
+    np.random.randn(500, 2) / [50, 50] + [20.6, 78.9], columns=['lat', 'lon']
 )
 
 st.write(df)
