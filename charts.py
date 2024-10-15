@@ -10,3 +10,14 @@ st.pyplot(fig)
 
 df = pd.DataFrame(np.random.randn(10, 2), columns=['x', 'y'])
 st.line_chart(df)
+
+df = pd.DataFrame(np.random.randn(10, 2), columns=['x', 'y'])
+st.bar_chart(df)
+
+df = pd.DataFrame(np.random.randn(10, 2), columns=['x', 'y'])
+st.area_chart(df)
+
+df = pd.DataFrame(
+    np.random.randn(500, 2) / [50, 50] + [37.76, -122.4], columns=['lat', 'lon']
+)
+st.map(df)
