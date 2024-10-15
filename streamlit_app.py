@@ -27,10 +27,12 @@ st.text_area('Description')
 st.file_uploader('Upload a photo')
 st.color_picker('Choose your favorite color')
 
-st.balloons()  # Celebration balloons
-st.progress(10)  # Progress bar
-with st.spinner('Wait for it...'):
-    time.sleep(10)  # Simulating a process delay
+
+#st.balloons()  # Celebration balloons
+#st.progress(10)  # Progress bar
+#with st.spinner('Wait for it...'):
+#    time.sleep(10)  # Simulating a process delay
+
 
 st.success("You did it!")
 st.error("Error occurred")
