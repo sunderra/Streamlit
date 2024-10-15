@@ -10,3 +10,7 @@ st.selectbox('Pick a fruit', ['Apple', 'Banana', 'Orange'])
 st.multiselect('Choose a planet', ['Jupiter', 'Mars', 'Neptune'])
 st.select_slider('Pick a mark', ['Bad', 'Good', 'Excellent'])
 st.slider('Pick a number', 0, 50)
+
+container = st.container()
+container.write("This is inside the container")
+st.write("This is outside the container")
