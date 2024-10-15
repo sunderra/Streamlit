@@ -31,3 +31,9 @@ st.balloons()  # Celebration balloons
 st.progress(10)  # Progress bar
 with st.spinner('Wait for it...'):
     time.sleep(10)  # Simulating a process delay
+
+st.success("You did it!")
+st.error("Error occurred")
+st.warning("This is a warning")
+st.info("It's easy to build a Streamlit app")
+st.exception(RuntimeError("RuntimeError exception"))
