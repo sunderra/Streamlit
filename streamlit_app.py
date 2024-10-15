@@ -1,4 +1,5 @@
 import streamlit as st
+import time
 
 st.title("This is the app title")
 st.header("This is the header")
