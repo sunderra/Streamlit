@@ -4,6 +4,7 @@ from io import StringIO
 
 uploaded_file = st.file_uploader("Choose a file")
 if uploaded_file is not None:
+    filename = uploaded_file.name
     if filename.endswith(".xlsx") :
         st.write("Excel file : " + uploaded_file.name)
         data = pd.read_excel(uploaded_file, header=None)
