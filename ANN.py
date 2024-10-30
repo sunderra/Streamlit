@@ -73,7 +73,7 @@ model.fit(x_train,np.reshape(y_train,(-1,1)), epochs=num_epochs, verbose=0, batc
 y_predicted_train = np.reshape(model.predict(x_train),(-1,1))
 y_predicted       = np.reshape(model.predict(x_test),(-1,1))
 
-plot_train_test_values(100,50,y_train,y_test,y_predicted)
+#plot_train_test_values(100,50,y_train,y_test,y_predicted)
 
 acc_train = calculate_accuracy(y_predicted_train, y_train)
 acc_test  = calculate_accuracy(y_predicted, y_test)
